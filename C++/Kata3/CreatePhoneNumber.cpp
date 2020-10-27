@@ -36,7 +36,10 @@ int main()
 {
   int a[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
 
-  cout << createPhoneNumber(a);
+  cout << createPhoneNumber(a) << endl;
 
-return 0;
+  std::cout << "\nPress ENTER to continue... " << flush;
+  std::cin.ignore( std::numeric_limits <std::streamsize> ::max(), '\n' );
+
+  return 0;
 } 

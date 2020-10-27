@@ -31,9 +31,12 @@ bool is_isogram(std::string str)
 
 int main()
 {
-    cout << is_isogram("Dermatoglyphics");
-    cout << is_isogram("aba");
-    cout << is_isogram("moOse");
+    cout << is_isogram("Dermatoglyphics") << endl;
+    cout << is_isogram("aba") << endl;
+    cout << is_isogram("moOse") << endl;
+
+    std::cout << "\nPress ENTER to continue... " << flush;
+    std::cin.ignore( std::numeric_limits <std::streamsize> ::max(), '\n' );
 
     return 0;
 } 

@@ -32,6 +32,10 @@ unsigned int countBits(unsigned long long n)
 int main() 
 { 
     int x = 1234;
-    cout << countBits(x);
+    cout << countBits(x) << endl;
+
+    std::cout << "\nPress ENTER to continue... " << flush;
+    std::cin.ignore( std::numeric_limits <std::streamsize> ::max(), '\n' );
+
     return 0; 
 }
